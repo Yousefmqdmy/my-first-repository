@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'VarelaRound-Regular';
+    src: url('VarelaRound-Regular.ttf') format('truetype');
+}
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'VarelaRound-Regular';
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    }
+
+
+
+.header-content {
+    height: 100%;
+    display: flex;
+    position: sticky;
+}
+
+.button-header {
+    width: 50%;
+    align-items: center;
+
+}
+
+.bestcity {
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.txt {
+    color: darkslateblue;
+    font-size: 20px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+
+.button {
+    color: rgb(0, 206, 194);
+    font-size: 13PX;
+}
+
+.button:hover {
+    color: rgb(0, 206, 194);
+    background-color: aqua;
+    transition: all 3s 0s ease;
+}
+
+.blue-box {
+    background-color: rgb(0, 206, 194);
+    height: 230px;
+    border-top: 1PX SOLID white;
+    box-shadow: 5px white;
+    margin-top: 60px;
+}
+
+.blue-box-content {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.city {
+    /* border: 2px solid black; */
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cityimg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+
+.citytxt {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.citytxt2 {
+    color: white;
+}
+
+.content {
+    background-color: white;
+    height: 500px;
+}
+
+.content-content {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    height: 300px;
+    width: 230px;
+    padding-top: 40px;
+    /* margin-top: 20px; */
+
+}
+
+h2 {
+    margin: 10;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: black;
+}
+
+
+.motherpic {
+    position: relative;
+}
+
+.halfpic {
+    background-color: rgba(3, 3, 151, 0.548);
+    position: absolute;
+    width: 230px;
+    height: 70px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.p {
+    margin: 0;
+    font-size: 8px;
+    margin-top: 10px;
+    color: white;
+}
+
+.navar {
+    background-color: darkgray;
+    height: 40px;
+    margin-top: 70px;
+}
+
+.navar-content {
+    background-color: darkgray;
+    height: 100%;
+    text-align: center;
+}
+
+.txt5 {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 800px;
+}
